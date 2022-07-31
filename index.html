@@ -38,7 +38,8 @@
 
                     <div id="option-box" class="col-2 d-flex flex-column align-items-center justify-content-between">
                         <img class="share-img" src="./assets/share.png" alt="">
-                        <div class="check-power d-flex flex-column align-items-center justify-content-between">
+
+                        <div id="Check-power-id" class="check-power d-flex flex-column align-items-center justify-content-between">
                             <img src="./assets/PowersIcon.svg" alt="">
                             <h5 class="text">Check Available Powers </h5>
                         </div>
@@ -61,16 +62,16 @@
                         <input style="margin-bottom: 10px;" type="radio" name="radio" id="radio">
                         <p style="font-size: 11px;"><del>Rs. 2000.00</del></p>
                         <p style="font-size: 13px;"> <strong>1500.00</strong> </p>
-                        <p style="font-size: 13px;">*offers available</p>
+                        <p class="offer-text">*offers available</p>
                     </div>
                 </div>
                 <!-- lush grass row end -->
                 <!-- new collection  -->
                 <div class="row ">
-                    <button class="btn">New Collection - Naughty Eyes </button>
+                    <button class="btn ">New Collection - Naughty Eyes </button>
                 </div>
                 <!-- new collection end -->
-                <div class="row collection-block mt-4 icon-div justify-content-center align-item-center ">
+                <div class="row collection-block mt-4 icon-div d-flex justify-content-center align-item-center ">
                     <div class="col d-flex flex-column justify-content-center align-items-center ">
                         <img class="svg-icon " src="./assets/PremiumQualityIcon.svg " alt=" ">
                         <p>Premium Frame & Lens Quality</p>
@@ -84,7 +85,7 @@
                         <p>5000+ Happy Customers</p>
                     </div>
                     <div class="col d-flex flex-column justify-content-center align-items-center ">
-                        <img class="svg-icon " src="./assets/eco-friendle.png " alt=" ">
+                        <img class="svg-icon" src="./assets/eco-friendle.png " alt=" ">
                         <p>Sustainable & Eco-friendly Products</p>
                     </div>
                 </div>
@@ -92,11 +93,11 @@
                 <!-- icon svg end  -->
                 <div class="row ojos-block d-flex justify-content-center align-items-center ">
                     <div class="col-2 d-flex justify-content-center align-items-center ">
-                        <img src="./assets/LK_Monogram.svg " alt=" ">
+                        <img class="ojos-icon-block" src="./assets/LK_Monogram.svg " alt=" ">
                     </div>
                     <div class="col-10 ">
-                        <p> <strong>OJOS Wear - A Lenskart Alliance</strong> </p>
-                        <p style="font-size: 11px;">OJOS Wear is new and vibrant brand collection by Lenskart. Shop from the range of stylish and quirky eyewear, curated for the GenZ, who love luxe styles at an affordable price! </p>
+                        <p class="ojos-text"> <strong>OJOS Wear - A Lenskart Alliance</strong> </p>
+                        <p class="ojos-text">OJOS Wear is new and vibrant brand collection by Lenskart. Shop from the range of stylish and quirky eyewear, curated for the GenZ, who love luxe styles at an affordable price! </p>
                     </div>
                 </div>
 
@@ -107,15 +108,15 @@
                         <img src="./assets/discount-svgrepo-com-green.svg " alt=" ">
                     </div>
                     <div class="col-10 ">
-                        <h5 style="color :#33b6ad; font-size: 14px;"> <strong>Flat 45% Off</strong> </h5>
-                        <p style="color :#33b6ad; font-size: 14px; ">Use Code <strong>SALE45</strong> | Valid on all Products | Discount ends soon!</p>
+                        <h5 class="discount-heading" style="color :#33b6ad; font-size: 14px; "> <strong>Flat 45% Off</strong> </h5>
+                        <p class="discount-text" style="color :#33b6ad; font-size: 14px; ">Use Code <strong>SALE45</strong> | Valid on all Products | Discount ends soon!</p>
                     </div>
                 </div>
 
                 <!-- discount block end -->
 
-                <div class="row mt-4">
-                    <button class="select-btn">SELECT LENSES</button>
+                <div class="row mt-4 ">
+                    <button class="select-btn ">SELECT LENSES</button>
                 </div>
 
 
@@ -123,18 +124,18 @@
         </div>
     </div>
 
-    <div id="dialog-box-id" class="dialog-box">
+    <div id="dialog-box-id" class="dialog-box ">
         <h6>This frame supports lenses of a specific power range. </h6>
         <p>Check Your Power availability below: </p>
 
-        <div style="display: flex; flex-direction:column; ;align-items:center;justify-content: center;">
-            <p class="sph"> <span style="margin-right: 15px;">SPH</span> <span>-8.00 to +6.00</span></p>
-            <p class="cyl"> <span style="margin-right: 15px;">CYL</span> <span>-5.00 to +5.00</span></p>
+        <div style="display: flex; flex-direction:column; ;align-items:center;justify-content: center; ">
+            <p class="sph "> <span style="margin-right: 15px; ">SPH</span> <span>-8.00 to +6.00</span></p>
+            <p class="cyl "> <span style="margin-right: 15px; ">CYL</span> <span>-5.00 to +5.00</span></p>
         </div>
 
 
-        <img src="./assets/LK_Monogram.svg" alt="">
-        <button id="ok-btn" class="dialog-ok-btn">OK</button>
+        <img src="./assets/LK_Monogram.svg " alt=" ">
+        <button id="ok-btn" class="dialog-ok-btn ">OK</button>
     </div>
 </body>
 

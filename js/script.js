@@ -36,7 +36,7 @@ window.onload = function () {
   document.getElementById("img-6").addEventListener("click", image6);
   document.getElementById("img-6").addEventListener("mouseenter", image6);
 
-  const openDialogBox = document.getElementById("option-box");
+  const openDialogBox = document.getElementById("Check-power-id");
   const open = () => {
     document.getElementById("dialog-box-id").style.display = "flex";
     document.getElementById("main-con").style.opacity = "0.3";
