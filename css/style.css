@@ -24,6 +24,7 @@
     }
     
     .side-img:hover {
+        cursor: pointer;
         border: 1px solid lightblue;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
