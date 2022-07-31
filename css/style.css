@@ -1,0 +1,264 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        /* font-family: 'Playfair Display', serif; */
+        /* font-family: 'Poppins', sans-serif; */
+    }
+    
+    body,
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .container-fluid {
+        position: absolute;
+    }
+    
+    .side-img {
+        margin: 5px;
+        width: 80px;
+        border-radius: 5px;
+    }
+    
+    .side-img:hover {
+        border: 1px solid lightblue;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .display-image {
+        width: 300px;
+    }
+    
+    .share-img {
+        padding: 5px;
+        width: 30px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .check-power {
+        cursor: pointer;
+    }
+    
+    .text {
+        cursor: pointer;
+        color: orange;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .lush-grass-div {
+        line-height: 0.4rem;
+    }
+    
+    .left-div {
+        padding: 15px 40px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    .btn {
+        color: blue;
+        background-color: rgb(225, 245, 252);
+        border: none;
+    }
+    
+    .btn:hover {
+        color: #6c75e3;
+        border: 1px solid #6c75e3;
+        background-color: rgb(225, 245, 252);
+    }
+    
+    .icon-div div p {
+        width: 100px;
+        font-size: 14px;
+    }
+    
+    .svg-icon {
+        width: 40px;
+    }
+    
+    .ojos-block {
+        color: #0c135e;
+        display: inline-block;
+        padding: 5px;
+        border: 3px solid #0c135e;
+        line-height: 1em;
+    }
+    
+    .lush-grass-heading {
+        font-weight: bolder;
+    }
+    
+    .discount-block {
+        height: 50px;
+        padding: 5px;
+        border: 3px solid #33b6ad;
+        line-height: 0em;
+    }
+    
+    .select-btn {
+        font-weight: bold;
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid #6c75e3;
+        color: white;
+        background-color: #6c75e3;
+    }
+    
+    .select-btn:hover {
+        color: #6c75e3;
+        border: 1px solid #6c75e3;
+        background-color: rgb(225, 245, 252);
+    }
+    
+    .dialog-box {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 250px;
+        /* border: 1px solid black; */
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: rgb(247, 247, 247);
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+    
+    .dialog-box h6 {
+        font-weight: bolder;
+    }
+    
+    .dialog-box div .sph,
+    .dialog-box div .cyl {
+        line-height: 1rem;
+    }
+    
+    .dialog-ok-btn {
+        color: white;
+        background-color: #6c75e3;
+        border: 1px solid #6c75e3;
+        border-radius: 5px;
+        padding: 3px;
+        width: 60px;
+        margin-top: 20px;
+    }
+    
+    .dialog-ok-btn:hover {
+        color: #6c75e3;
+        border: 1px solid #6c75e3;
+        background-color: rgb(225, 245, 252);
+    }
+    
+    .sph {
+        padding: 4px;
+        font-weight: bold;
+        background-color: #c0bdbd;
+    }
+    
+    .cyl {
+        padding: 4px;
+        font-weight: bold;
+        background-color: #e0dddd;
+    }
+    
+    @media (max-width:1200px) and (min-width: 550px) {
+        .inner-div {
+            display: flex;
+            flex-direction: column;
+        }
+        .display-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            border-radius: 20px;
+        }
+        .left-div {
+            margin-top: 50px;
+        }
+    }
+    
+    @media (max-width: 550px) and (min-width: 320px) {
+        .inner-div {
+            display: flex;
+            flex-direction: column;
+        }
+        .side-img {
+            display: none;
+        }
+        .left-div {
+            margin-top: 50px;
+        }
+        .display-image {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+        }
+        .lush-grass-div {
+            font-size: 12px;
+            line-height: 0.6rem;
+        }
+        .collection-block {
+            display: flex;
+            flex-direction: row;
+        }
+        .dialog-box {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            height: 250px;
+            /* border: 1px solid black; */
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background-color: rgb(247, 247, 247);
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+        .dialog-box h6 {
+            font-size: 11px;
+            font-weight: bolder;
+        }
+        .dialog-box p {
+            font-size: 12px;
+        }
+        .dialog-box div p {
+            font-size: 12px;
+        }
+        .dialog-box img {
+            width: 25px;
+        }
+        .dialog-ok-btn {
+            color: white;
+            background-color: #6c75e3;
+            border: 1px solid #6c75e3;
+            border-radius: 5px;
+            padding: 1px;
+            width: 40px;
+            margin-top: 20px;
+        }
+        .discount-block {
+            height: auto;
+            padding: 5px;
+            border: 3px solid #33b6ad;
+            line-height: 0.8em;
+        }
+    }
+    
+    @media (max-width: 350px) and (min-width: 250px) {}
